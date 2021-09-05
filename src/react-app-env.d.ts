@@ -1,1 +1,1 @@
-/// <reference types="react-scripts-mdx" />
+/// <reference types="react-scripts" />

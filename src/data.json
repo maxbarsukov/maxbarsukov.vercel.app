@@ -1,0 +1,152 @@
+{
+    "header": {
+        "name": "Max Barsukov",
+        "title": "Full Stack Software Engineer",
+        "showProfilePic": true,
+        "cvLink": "https://my-cv-will-be-here.com",
+        "linkedIn": "https://www.linkedin.cn/in/maxbarsukov/",
+        "stackOverflow": "https://stackoverflow.com/users/16836321/nyapsilon",
+        "mail": "mailto:maximbarsukov@bk.ru",
+        "facebook": "",
+        "instagram": "",
+        "github": "https://github.com/maxbarsukov"
+    },
+    "modules": [
+        {
+            "type": "about",
+            "data": {
+                "about": "Hi, I'm Max, a passionate self-taught developer from Russia. I'm an avid learner, I like what I do and I'm not afraid of trying out new technologies and adopting them as I see fit.  Continuously learning how to make the world better.",
+                "education": {
+                    "title": "Education",
+                    "data": [
+                    {
+                        "title": "Android Application Developer",
+                        "institute": "Samsung IT School (SFEDU division)",
+                        "startingYear": "2020",
+                        "endingYear": "2021"
+                    }]
+                }
+            },
+            "title": "About"
+        },
+        {
+            "type": "workExperience",
+            "data": [
+                {
+                    "company": "Followy",
+                    "title": "Fullstack Software Engineer",
+                    "startingYear": 2020,
+                    "endingYear": null,
+                    "showWorkplaceName": false,
+                    "showWorkplaceImage": true
+                },
+                {
+                    "company": "Open Source",
+                    "title": "Freelance & Pet Projects & Open Source",
+                    "startingYear": 2019,
+                    "endingYear": null,
+                    "showWorkplaceName": false,
+                    "showWorkplaceImage": true
+                }
+            ],
+            "title": "My Work Experience"
+        },
+        {
+            "type": "whatIKnow",
+            "data": [
+                {
+                    "logo": "react",
+                    "name": "React",
+                    "type": "Component frameworks / libraries",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "angular",
+                    "name": "Angular",
+                    "type": "Component frameworks / libraries",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "jest",
+                    "name": "Jest",
+                    "type": "Testing frameworks",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "nodejs",
+                    "name": "nodejs",
+                    "type": "Backend",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "styled-components",
+                    "name": "Styled Components",
+                    "type": "UI and Styling",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "js",
+                    "name": "JavaScript",
+                    "type": "Languages / Supersets",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "typescript",
+                    "name": "TypeScript",
+                    "type": "Languages / Supersets",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "java",
+                    "name": "Java",
+                    "type": "Languages / Supersets",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "mysql",
+                    "name": "MySQL",
+                    "type": "Databases",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "fluentui",
+                    "name": "Fluent UI",
+                    "type": "UI frameworks",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "chakraui",
+                    "name": "Chakra UI",
+                    "type": "UI frameworks",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "mui",
+                    "name": "Material UI",
+                    "type": "UI frameworks",
+                    "isCurrentlyUsing": false
+                }
+            ],
+            "display": "both",
+            "title": "What I Know (and use)"
+        },
+        {
+            "type": "volunteering",
+            "data": [
+                {
+                    "title": "Tech-Career",
+                    "description": "Tutoring and mentoring students in Web and other CS topics",
+                    "startingYear": "2020",
+                    "endingYear": null
+                },
+                {
+                    "title": "Sahar.org.il",
+                    "description": "Building a landing page for the group",
+                    "startingYear": "2015",
+                    "endingYear": "2015"
+                }
+            ],
+            "title": "Volunteer Work"
+        }
+    ]
+}
