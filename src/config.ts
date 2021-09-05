@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import { theme } from "@chakra-ui/react"
 
 enum Theme {
@@ -15,8 +14,8 @@ export const themeConfig = {
     },
     [Theme.AURORA]: {
         color: "purple",
-        main: theme.colors.purple[600],
-        darker: theme.colors.purple[800],
+        main: theme.colors.blue[600],
+        darker: theme.colors.blue[800],
     },
     [Theme.ABSTRACT]: {
         color: "purple",
@@ -26,5 +25,5 @@ export const themeConfig = {
 }
 
 export const config = {
-    theme: _.sample(Object.values(Theme)) as Theme
+    theme: Theme.ABSTRACT
 }

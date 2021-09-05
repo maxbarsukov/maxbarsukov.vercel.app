@@ -15,7 +15,7 @@
         {
             "type": "about",
             "data": {
-                "about": "Hi, I'm Max, a passionate self-taught developer from Russia. I'm an avid learner, I like what I do and I'm not afraid of trying out new technologies and adopting them as I see fit.  Continuously learning how to make the world better.",
+                "about": "Hi, I'm Max, a passionate self-taught developer from Russia. I'm an avid improver, I like what I do and I'm not afraid of trying out new technologies and adopting them as I see fit. Continuously learning how to make the world better.",
                 "education": {
                     "title": "Education",
                     "data": [
@@ -49,7 +49,7 @@
                     "showWorkplaceImage": true
                 }
             ],
-            "title": "My Work Experience"
+            "title": "Work Experience"
         },
         {
             "type": "whatIKnow",
@@ -61,20 +61,26 @@
                     "isCurrentlyUsing": true
                 },
                 {
-                    "logo": "angular",
-                    "name": "Angular",
-                    "type": "Component frameworks / libraries",
-                    "isCurrentlyUsing": false
-                },
-                {
                     "logo": "jest",
                     "name": "Jest",
                     "type": "Testing frameworks",
                     "isCurrentlyUsing": true
                 },
                 {
+                    "logo": "rspec",
+                    "name": "RSpec",
+                    "type": "Testing frameworks",
+                    "isCurrentlyUsing": true
+                },
+                {
                     "logo": "nodejs",
-                    "name": "nodejs",
+                    "name": "Node.js",
+                    "type": "Backend",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "rails",
+                    "name": "Ruby on Rails",
                     "type": "Backend",
                     "isCurrentlyUsing": true
                 },
@@ -87,20 +93,26 @@
                 {
                     "logo": "js",
                     "name": "JavaScript",
-                    "type": "Languages / Supersets",
+                    "type": "Languages",
                     "isCurrentlyUsing": true
                 },
                 {
                     "logo": "typescript",
                     "name": "TypeScript",
-                    "type": "Languages / Supersets",
+                    "type": "Languages",
                     "isCurrentlyUsing": true
                 },
                 {
                     "logo": "java",
                     "name": "Java",
-                    "type": "Languages / Supersets",
+                    "type": "Languages",
                     "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "ruby",
+                    "name": "Ruby",
+                    "type": "Languages",
+                    "isCurrentlyUsing": true
                 },
                 {
                     "logo": "mysql",
@@ -109,9 +121,9 @@
                     "isCurrentlyUsing": false
                 },
                 {
-                    "logo": "fluentui",
-                    "name": "Fluent UI",
-                    "type": "UI frameworks",
+                    "logo": "postgres",
+                    "name": "PostgreSQL",
+                    "type": "Databases",
                     "isCurrentlyUsing": true
                 },
                 {
@@ -124,7 +136,7 @@
                     "logo": "mui",
                     "name": "Material UI",
                     "type": "UI frameworks",
-                    "isCurrentlyUsing": false
+                    "isCurrentlyUsing": true
                 }
             ],
             "display": "both",
@@ -140,10 +152,10 @@
                     "endingYear": null
                 },
                 {
-                    "title": "Sahar.org.il",
-                    "description": "Building a landing page for the group",
-                    "startingYear": "2015",
-                    "endingYear": "2015"
+                    "title": "Open Source",
+                    "description": "Contributing to open source Ruby and JS repositories",
+                    "startingYear": "2018",
+                    "endingYear": "2021"
                 }
             ],
             "title": "Volunteer Work"
