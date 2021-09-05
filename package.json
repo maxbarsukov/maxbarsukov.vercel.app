@@ -6,6 +6,7 @@
   "dependencies": {
     "@chakra-ui/icons": "^1.0.14",
     "@chakra-ui/react": "^1.6.5",
+    "@craco/craco": "^6.2.0",
     "@emotion/react": "11",
     "@emotion/styled": "11",
     "@testing-library/jest-dom": "^5.11.4",
@@ -19,6 +20,7 @@
     "framer-motion": "4",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
+    "react-app-polyfill": "^2.0.0",
     "react-dom": "^17.0.2",
     "react-fast-marquee": "^1.2.1",
     "react-scripts": "4.0.3",
@@ -27,12 +29,12 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "deploy": "yarn build && netlify deploy --dir=build",
     "deploy:prod": "yarn build && netlify deploy --dir=build --prod",
-    "eject": "react-scripts eject"
+    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": [
@@ -44,7 +46,9 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not ie <= 11",
+      "not ie < 11",
+      "chrome >= 62",
+      "and_chr >= 61",
       "not op_mini all"
     ],
     "development": [
