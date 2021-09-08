@@ -57,19 +57,43 @@
                 {
                     "logo": "react",
                     "name": "React",
-                    "type": "Component frameworks / libraries",
+                    "type": "Frontend",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "redux",
+                    "name": "Redux",
+                    "type": "Frontend",
                     "isCurrentlyUsing": true
                 },
                 {
                     "logo": "jest",
                     "name": "Jest",
-                    "type": "Testing frameworks",
+                    "type": "Testing",
                     "isCurrentlyUsing": true
                 },
                 {
                     "logo": "rspec",
                     "name": "RSpec",
-                    "type": "Testing frameworks",
+                    "type": "Testing",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "travis-ci",
+                    "name": "Travis CI",
+                    "type": "Testing",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "circle-ci",
+                    "name": "Circle CI",
+                    "type": "Testing",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "rails",
+                    "name": "Ruby on Rails",
+                    "type": "Backend",
                     "isCurrentlyUsing": true
                 },
                 {
@@ -79,14 +103,20 @@
                     "isCurrentlyUsing": false
                 },
                 {
-                    "logo": "rails",
-                    "name": "Ruby on Rails",
+                    "logo": "express",
+                    "name": "Express.js",
                     "type": "Backend",
-                    "isCurrentlyUsing": true
+                    "isCurrentlyUsing": false
                 },
                 {
                     "logo": "styled-components",
                     "name": "Styled Components",
+                    "type": "UI and Styling",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "sass",
+                    "name": "SASS",
                     "type": "UI and Styling",
                     "isCurrentlyUsing": true
                 },
@@ -103,21 +133,15 @@
                     "isCurrentlyUsing": true
                 },
                 {
-                    "logo": "java",
-                    "name": "Java",
-                    "type": "Languages",
-                    "isCurrentlyUsing": false
-                },
-                {
                     "logo": "ruby",
                     "name": "Ruby",
                     "type": "Languages",
                     "isCurrentlyUsing": true
                 },
                 {
-                    "logo": "mysql",
-                    "name": "MySQL",
-                    "type": "Databases",
+                    "logo": "java",
+                    "name": "Java",
+                    "type": "Languages",
                     "isCurrentlyUsing": false
                 },
                 {
@@ -127,15 +151,81 @@
                     "isCurrentlyUsing": true
                 },
                 {
-                    "logo": "chakraui",
-                    "name": "Chakra UI",
-                    "type": "UI frameworks",
+                    "logo": "redis",
+                    "name": "Redis",
+                    "type": "Databases",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "mysql",
+                    "name": "MySQL",
+                    "type": "Databases",
                     "isCurrentlyUsing": false
                 },
                 {
                     "logo": "mui",
                     "name": "Material UI",
-                    "type": "UI frameworks",
+                    "type": "UI and Styling",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "chakraui",
+                    "name": "Chakra UI",
+                    "type": "UI and Styling",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "bootstrap",
+                    "name": "Bootstrap",
+                    "type": "UI and Styling",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "git",
+                    "name": "Git",
+                    "type": "Tools",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "linux",
+                    "name": "Linux",
+                    "type": "Tools",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "bash",
+                    "name": "Bash",
+                    "type": "Tools",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "docker",
+                    "name": "Docker",
+                    "type": "Ops",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "docker-compose",
+                    "name": "docker-compose",
+                    "type": "Ops",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "haml",
+                    "name": "Haml",
+                    "type": "Other",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "gems",
+                    "name": "RubyGems",
+                    "type": "Other",
+                    "isCurrentlyUsing": true
+                },
+                {
+                    "logo": "rubocop",
+                    "name": "RuboCop",
+                    "type": "Other",
                     "isCurrentlyUsing": true
                 }
             ],

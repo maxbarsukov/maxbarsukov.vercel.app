@@ -1,4 +1,4 @@
-import { Badge } from '@chakra-ui/react';
+import { Badge, Image } from '@chakra-ui/react';
 import React from 'react'
 import styled from 'styled-components';
 import { StyledSecondaryTitle } from '../../common/styles';
@@ -20,13 +20,25 @@ const StyledListGroupContainer = styled.div`
     }
 `;
 
+const StyledLogoIcon = styled.span`
+  float: left;
+  margin-right: 0.5em;
+  width: 1.2em;
+  height: 1.2em;
+`
+
 const WhatIKnowListGroupContainer = ({group, title}:IWhatIKnowListGroupContainerProps) => {
     return (
         <div>
             <StyledSecondaryTitle>{title}</StyledSecondaryTitle>
             <StyledListGroupContainer>
                 {
-                    group.map((item, index) => <span key={index}>{item.name} {item.isCurrentlyUsing && <Badge variant="solid" colorScheme="red">Using</Badge>}</span>)
+                    group.map((item, index) => <span key={index}>
+                        <StyledLogoIcon>
+                            <Image src={`./assets/usages/${item.logo}.png`} alt={item.name} />
+                        </StyledLogoIcon>
+                        {item.name} {item.isCurrentlyUsing && <Badge variant="solid" colorScheme="red">Using</Badge>}
+                    </span>)
                 }
             </StyledListGroupContainer>
         </div>
