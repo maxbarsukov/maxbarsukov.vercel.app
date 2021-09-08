@@ -26,7 +26,7 @@ const WhatIKnowListGroupContainer = ({group, title}:IWhatIKnowListGroupContainer
             <StyledSecondaryTitle>{title}</StyledSecondaryTitle>
             <StyledListGroupContainer>
                 {
-                    group.map((item, index) => <span>{item.name} {item.isCurrentlyUsing && <Badge variant="solid" colorScheme="red">Using</Badge>}</span>)
+                    group.map((item, index) => <span key={index}>{item.name} {item.isCurrentlyUsing && <Badge variant="solid" colorScheme="red">Using</Badge>}</span>)
                 }
             </StyledListGroupContainer>
         </div>

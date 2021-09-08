@@ -30,7 +30,7 @@ const Navigation = ({modules, data}: INavigationProps) => {
                 <DrawerContent>
                 <DrawerHeader borderBottomWidth="1px">{data.name}</DrawerHeader>
                 <DrawerBody>
-                    {modules.map((module, index) => <Button as="a" href={`#module-${index}`} onClick={() => setIsNavOpen(false)} colorScheme={themeConfig[config.theme].color} variant="ghost" css={{display: 'flex', width: '100%'}} my={4} >{module.title}</Button>)}
+                    {modules.map((module, index) => <Button key={index} as="a" href={`#module-${index}`} onClick={() => setIsNavOpen(false)} colorScheme={themeConfig[config.theme].color} variant="ghost" css={{display: 'flex', width: '100%'}} my={4} >{module.title}</Button>)}
                 </DrawerBody>
                 </DrawerContent>
             </Drawer>}

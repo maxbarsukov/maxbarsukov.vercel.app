@@ -25,7 +25,7 @@ const About = ({data, title, index}: IAboutProps) => {
                 <StyledParagraph paddingTop="0">{data.about}</StyledParagraph>
                 <StyledSecondaryTitle>{data.education.title}</StyledSecondaryTitle>
                 {data.education.data.map((edu: IEducationItem) => 
-                    <EducationItem title={edu.title} institute={edu.institute} startingYear={edu.startingYear} endingYear={edu.endingYear} />
+                    <EducationItem key={edu.title} title={edu.title} institute={edu.institute} startingYear={edu.startingYear} endingYear={edu.endingYear} />
                 )}
             </StyledAbout>
         </StyledCommonSection>

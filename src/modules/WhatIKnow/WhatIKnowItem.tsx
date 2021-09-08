@@ -32,7 +32,7 @@ export enum EWhatIKnowItemType {
     DATABASES = 'Databases',
     UI_STYLING = 'UI and Styling',
     UI_FRAMEWORKS = 'UI frameworks',
-    LANGUAGES_SUPERSETS = 'Languages / Supersets',
+    LANGUAGES = 'Languages',
 }
 
 export interface IWhatIKnowItem {
