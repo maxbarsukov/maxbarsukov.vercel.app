@@ -33,4 +33,4 @@ const App: React.FC<DocumentAppProps> = ({ Component, pageProps }) => {
   )
 }
 
-export default App
+export default React.memo(App)
