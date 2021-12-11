@@ -3,15 +3,9 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           <meta charSet="utf-8"/>
-          <title>Max Barsukov</title>
-          <meta
-            name="description"
-            content="Max Barsukov's portfolio website"
-          />
-
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           <link
@@ -19,7 +13,6 @@ class MyDocument extends Document {
             rel="stylesheet" />
 
           <link rel="manifest" href="/manifest.json"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
           <meta name="theme-color" content="#000000"/>
 
           <link rel="icon" href="/favicon.ico" />

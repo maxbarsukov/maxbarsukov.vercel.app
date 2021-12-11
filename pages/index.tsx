@@ -4,6 +4,14 @@ import Head from 'next/head'
 const Home: NextPage = () => {
   return (
     <div>
+      <Head>
+        <title>Max Barsukov</title>
+        <meta
+          name="description"
+          content="Max Barsukov's portfolio website"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+      </Head>
       <style jsx global>{`
         *, *::after, *::before {
           margin: 0;
