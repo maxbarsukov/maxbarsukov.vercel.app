@@ -6,9 +6,8 @@ module.exports = withPWA({
   webpack5: true,
   pwa: {
     dest: 'public',
-    register: true,
-    skipWaiting: true,
-    disable: process.env.NODE_ENV === "development",
+    register: false,
+    skipWaiting: false,
   },
   env: {
     PUBLIC_URL: 'https://maxbarsukov.vercel.app/',
